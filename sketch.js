@@ -10,7 +10,8 @@ var bg = 0;
 
 function preload()
 {
-polygonImg = loadImage("polygon.png")
+polygonImg = loadImage("polygon.png");
+	  clock();
 }
 
 function setup() 
@@ -155,7 +156,7 @@ fill(254,191,202);
   box24.scoring();
   box25.scoring();
 
-  clock();
+
 
 }
 
