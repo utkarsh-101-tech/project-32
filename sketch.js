@@ -6,7 +6,7 @@ const Body = Matter.Body;
 const Constraint = Matter.Constraint;
 
 var score = 0;
-var bg = 0;
+var bg = "orange";
 
 function preload()
 {
